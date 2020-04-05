@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="089c6d00-5b02-4739-bccf-0fbc50fbf8c4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1a1lNy8SBPdig8qPZmFfSGsd50T" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX&#10;JavaScript&#10;TypeScript" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="/usr/local/opt/node@10/bin/node" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,HIDE_INHERITED_FROM_OBJECT,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="089c6d00-5b02-4739-bccf-0fbc50fbf8c4" name="Default Changelist" comment="" />
+      <created>1585910944106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585910944106</updated>
+      <workItem from="1585910945478" duration="14062000" />
+      <workItem from="1586006540111" duration="11806000" />
+      <workItem from="1586091069524" duration="27000" />
+      <workItem from="1586091144417" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="801" y="476" key="#ESLint" timestamp="1586006849297">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="801" y="476" key="#ESLint/53.23.2507.1417@53.23.2507.1417" timestamp="1586006849297" />
+    <state x="939" y="564" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585912867408">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="939" y="564" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/53.23.2507.1417@53.23.2507.1417" timestamp="1585912867408" />
+    <state x="989" y="572" key="FileChooserDialogImpl" timestamp="1585936587451">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="989" y="572" key="FileChooserDialogImpl/53.23.2507.1417@53.23.2507.1417" timestamp="1585936587451" />
+    <state width="1446" height="328" key="GridCell.Tab.0.bottom" timestamp="1586091064223">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state width="1446" height="328" key="GridCell.Tab.0.bottom/53.23.2507.1417@53.23.2507.1417" timestamp="1586091064223" />
+    <state width="1446" height="328" key="GridCell.Tab.0.center" timestamp="1586091064223">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state width="1446" height="328" key="GridCell.Tab.0.center/53.23.2507.1417@53.23.2507.1417" timestamp="1586091064223" />
+    <state width="1446" height="328" key="GridCell.Tab.0.left" timestamp="1586091064222">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state width="1446" height="328" key="GridCell.Tab.0.left/53.23.2507.1417@53.23.2507.1417" timestamp="1586091064222" />
+    <state width="1446" height="328" key="GridCell.Tab.0.right" timestamp="1586091064223">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state width="1446" height="328" key="GridCell.Tab.0.right/53.23.2507.1417@53.23.2507.1417" timestamp="1586091064223" />
+    <state x="903" y="528" key="RollbackChangesDialog" timestamp="1585927629607">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="903" y="528" key="RollbackChangesDialog/53.23.2507.1417@53.23.2507.1417" timestamp="1585927629607" />
+    <state x="710" y="449" key="SettingsEditor" timestamp="1586082759579">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="710" y="449" key="SettingsEditor/53.23.2507.1417@53.23.2507.1417" timestamp="1586082759579" />
+    <state x="803" y="533" width="795" height="554" key="find.popup" timestamp="1585924399395">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="803" y="533" width="795" height="554" key="find.popup/53.23.2507.1417@53.23.2507.1417" timestamp="1585924399395" />
+    <state x="926" y="625" key="jetbrains.nodejs.interpreters-dialog" timestamp="1585936588314">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="926" y="625" key="jetbrains.nodejs.interpreters-dialog/53.23.2507.1417@53.23.2507.1417" timestamp="1585936588314" />
+    <state x="866" y="487" width="670" height="676" key="search.everywhere.popup" timestamp="1586005906287">
+      <screen x="53" y="23" width="2507" height="1417" />
+    </state>
+    <state x="866" y="487" width="670" height="676" key="search.everywhere.popup/53.23.2507.1417@53.23.2507.1417" timestamp="1586005906287" />
+  </component>
+</project>
