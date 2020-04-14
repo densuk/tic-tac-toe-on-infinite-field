@@ -4,39 +4,24 @@ import { CELL_STATES } from '../../constants'
 import { getPlayerLine } from './selectors'
 
 export const initialState = {
-  numberMovesToWin: 3, // Колличество ходов для победы
+  numberMovesToWin: 3, // Количество ходов для победы
   turn: CELL_STATES.X, // Текущий игрок, по-умолчанию X
   winner: null, // Победитель
   winningCells: null, // Выигравшая комбинация
-  isOver: false, // Признак заверщения игры
+  isOver: false, // Признак завершения игры
   table: {}, // Словарь, для хранения ходов
 }
 
 const reducers = {
-  set: (state, { payload }) => {
-    const hash = getHashFromCoordinates(payload.x, payload.y)
-
-    if (state.table[hash] === undefined) {
-      state.table[hash] = payload
-    } else {
-      state.table[hash].value = payload.value
-    }
-  },
-  clear: () => initialState,
   play: (state, { payload: { x, y } }) => {
+    const hash = getHashFromCoordinates(x, y)
     const player = state.turn
 
-    // TODO: Подумать над этим
-    const set = (state, { payload }) => {
-      const hash = getHashFromCoordinates(payload.x, payload.y)
-
-      if (state.table[hash] === undefined) {
-        state.table[hash] = payload
-      } else {
-        state.table[hash].value = payload.value
-      }
+    if (state.table[hash] === undefined) {
+      state.table[hash] = { x, y, value: player }
+    } else {
+      state.table[hash].value = player
     }
-    set(state, { payload: { x, y, value: state.turn } })
 
     const lines = [
       getPlayerLine(
@@ -117,14 +102,15 @@ const reducers = {
       state.turn = getNextTurn(state.turn)
     }
   },
+  clear: () => initialState,
 }
 
-const game = createSlice({
+export const {
+  actions: gameActions,
+  reducer: gameReducer,
+  caseReducers: gameCaseReducers,
+} = createSlice({
   name: 'grid',
   initialState,
   reducers,
 })
-
-export const { set, clear, play } = game.actions
-
-export default game.reducer
